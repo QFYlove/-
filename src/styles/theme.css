@@ -1,0 +1,49 @@
+@theme {
+  /* Colors for Offline Data Audit Workstation */
+  --color-primary: #1D3557;
+  --color-accent: #E63946;
+  --color-success: #2A9D8F;
+  --color-warning: #E9C46A;
+  --color-background: #F8F9FA;
+  --color-card: #FFFFFF;
+  
+  /* Risk level colors */
+  --color-high-risk: #E63946;
+  --color-medium-risk: #E9C46A;
+  --color-low-risk: #2A9D8F;
+  --color-compliant: #2A9D8F;
+  
+  /* Spacing */
+  --spacing-unit: 8px;
+  
+  /* Border radius */
+  --radius-default: 6px;
+  
+  /* Sidebar */
+  --sidebar-width: 240px;
+  --sidebar-collapsed: 64px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-background);
+  color: #1F2937;
+}
+
+h1 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
